@@ -1,0 +1,5 @@
+import pyautogui
+spam = 0
+while spam < 500:
+	pyautogui.tripleClick(), pyautogui.tripleClick(), pyautogui.tripleClick()
+	spam = spam + 1
